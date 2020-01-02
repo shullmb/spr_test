@@ -1,0 +1,11 @@
+$site-width: 1920px;
+$content-width: 1280px;
+
+/// colors
+$dark-bg: #0f0f0f;
+$light-bg: #efefef;
+$nav-bg: lighten($dark-bg, 10%);
+$button-bg: #44a5ff;
+$button-bg-active: darken($button-bg, 20%);
+$text-default: #020202;
+$text-secondary: #090909;

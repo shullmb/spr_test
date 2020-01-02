@@ -1,0 +1,15 @@
+@mixin font-family() {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+}
+
+@mixin font-heading-primary($scale: 1) {
+  @include font-family;
+  font-weight: 600;
+  line-height: 1.25rem;
+}
+
+@mixin font-heading-secondary($scale: 1) {
+  @include font-family;
+  font-weight: 300;
+  line-height: 1rem;
+}

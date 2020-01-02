@@ -1,0 +1,30 @@
+{ 
+  "en": {
+    "home": {
+      "heading": {
+        "primary": "Welcome to the Sandbox",
+        "secondary": "test them, your ideas"
+      }
+    },
+    "profile": {
+      "heading": {
+        "primary": "This is the profile page",
+        "secondary": "test them, your match params "
+      }
+    }
+  },
+  "es": {
+    "home": {
+      "heading": {
+        "primary": "Bienvenido a Sandbox",
+        "secondary": "pruébalos, tus ideas"
+      }
+    },
+    "profile": {
+      "heading": {
+        "primary": "Esta es la página de perfil.",
+        "secondary": "pruébalos, tus parámetros de partido"
+      }
+    }
+  }
+}

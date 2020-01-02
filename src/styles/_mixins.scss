@@ -1,0 +1,12 @@
+/// mixins
+@mixin shadow {
+  -webkit-box-shadow: 0px 6px 10px 0px lighten($dark-bg, 60%);
+  -moz-box-shadow: 0px 6px 10px 0px lighten($dark-bg, 60%);
+  box-shadow: 0px 6px 10px 0px lighten($dark-bg, 60%);
+}
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

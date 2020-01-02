@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $dark-bg;
+  color: $text-default;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: $light-bg;
+}
+
+header,
+footer {
+  background-color: $nav-bg;
+  a {
+    text-decoration: wavy;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    &:hover,
+    &:focus,
+    &.is-active {
+      color: orangered;
+      font-weight: 500;
+    }
+  }
+}

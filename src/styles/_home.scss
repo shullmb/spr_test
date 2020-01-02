@@ -1,0 +1,26 @@
+.Home {
+  background-color: $light-bg;
+  color: $text-default;
+
+  h1 {
+    @include font-heading-primary;
+  }
+
+  h2,
+  h3 {
+    @include font-heading-secondary;
+    color: $text-secondary;
+  }
+
+  p {
+    @include font-family;
+  }
+
+  &-heading {
+    padding: 2em;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    @include shadow;
+  }
+}
